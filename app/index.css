@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body{
+  min-height: 100%;
+  min-height: 100vh;
+
+}
+
+body{
+  font: 16px 'Roboto', Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ul li{
+  margin: 1rem;
+}
+
+.c{
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  width: 300px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.a {
+  margin: 1rem;
+}
